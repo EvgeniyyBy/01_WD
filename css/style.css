@@ -1,0 +1,165 @@
+/* Основные стили */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-container {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+/* header */
+
+.header {
+    background-color: #EEEFF1;
+   
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 60px;
+
+}
+
+.logo {
+    float: left;
+    margin-top: 57px;
+   
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 80px;
+}
+
+.menu-item {
+    margin-right: 42px;
+}
+
+
+.menu-item a {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+
+/* intro */
+
+.intro {
+    background-color: #EEEFF1;
+    padding-top: 63px;
+    padding-bottom: 130px;
+    
+}
+
+.intro .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-img {
+    margin-right: 130px;
+}
+
+.intro-discription {
+    max-width: 540px;
+}
+
+.intro-button {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color:white;
+    font-size: 16px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+/* author */
+
+.author {
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-right: 690px;
+    padding-left: 690px;
+}
+
+.author-title {
+    margin-bottom: 50px;
+}
+
+/* project */
+
+.project {
+    background: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.project-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.project-item {
+   display: flex;
+   align-items: center;
+}
+
+.project-item img {
+    margin-right: 20px;
+}
+
+.project-title {
+    font-size: 21px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.project-text {
+    color: #FFF;
+    font-weight: 400;
+}
+
+/* skills */
+
+.skills-box {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
